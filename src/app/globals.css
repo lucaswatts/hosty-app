@@ -31,3 +31,55 @@ body {
     text-wrap: balance;
   }
 }
+
+.h1 {
+  text-transform: uppercase;
+  font-size: 28px;
+}
+
+.header-image-container {
+  display: block;
+  background-size: cover;
+  background-position: center;
+  background-image: url("/assets/cottage.jpg");
+  height: 100vh;
+  width: 100vw;
+
+}
+
+.header-image-container::before {
+  content: ""; 
+  position: absolute; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 1)); /* Gradient from 50% opacity to solid black */
+
+}
+
+.header-content-container {
+  position: absolute;
+  top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline;
+  width: 100vw;
+  text-align: center;
+  color: #fff;
+}
+
+.body-text {
+  font-size: 12px;
+  font-weight: 100;
+}
+
+.down-icon {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+}
+
+.maps-iframe {
+  margin-top: 50px;
+}
