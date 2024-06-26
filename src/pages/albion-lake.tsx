@@ -23,9 +23,9 @@ export default function Albion() {
       </div>
       <iframe
         className="maps-iframe"
-        src="https://www.google.com/maps/d/u/0/embed?mid=1UiNObyoAOutUUMWTAy-FCRY4xHaaovg&ehbc=2E312F"
-        width="100%"
-        height="900px"
+        src="https://www.google.com/maps/d/u/0/embed?mid=1UiNObyoAOutUUMWTAy-FCRY4xHaaovg&ehbc=2E312F&noprof=1"
+        width="80%"
+        height="700px"
       ></iframe>
     </div>
   );
