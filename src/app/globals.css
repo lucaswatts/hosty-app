@@ -22,19 +22,24 @@
   }
 }
 
+body {
+  /* overflow: hidden; */
+}
+
 .h1 {
-  text-transform: uppercase;
-  font-size: 28px;
+  /* text-transform: uppercase; */
+  font-size: 48px;
 }
 
 .header-image-container {
   display: block;
   background-size: cover;
-  background-position: center;
-  background-image: url("/assets/cottage.jpg");
-  height: 100vh;
+  background-position: 40%;
+  background-image: url("/assets/hero-cottage-2.jpg");
+  height: 99vh;
   width: 100vw;
-
+  border-bottom-right-radius: 35px;
+  border-bottom-left-radius: 35px;
 }
 
 .header-image-container::before {
@@ -43,19 +48,19 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 99%;
   background-color: rgba(0, 0, 0, 0.5); 
+  border-bottom-right-radius: 35px;
+  border-bottom-left-radius: 35px;
 }
 
 .header-content-container {
   position: absolute;
-  top: 80px;
-  margin-left: auto;
-  margin-right: auto;
+  bottom: 60px;
   display: inline;
-  width: 100vw;
-  text-align: center;
+  left: 0px;
   color: #fff;
+  width: 100%;
 }
 
 .body-text {
@@ -63,14 +68,8 @@
   font-weight: 100;
 }
 
-.down-icon {
-  position: absolute;
-  bottom: 30px;
-  left: 50%;
-}
-
 .maps-iframe {
-  margin-top: 50px;
+  margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
   border-radius: 12px;
