@@ -5,8 +5,8 @@ import MapCopy from "@/components/MapCopy";
 export default function Albion() {
   return (
     <div>
-      <div className="header-image-container"></div>
-      <div className="header-content-container">
+      <div className="header-image-container block bg-cover h-[99vh] w-full rounded-bl-[35px] rounded-br-[35px]"></div>
+      <div className="header-content-container text-white absolute bottom-[60px] inline left-0 w-full">
         <h1 className="h1 align-left ml-[5%] mb-[15px]">
           Explore Your
           <br />
@@ -30,7 +30,7 @@ export default function Albion() {
         className="maps-iframe"
         src="https://www.google.com/maps/d/u/0/embed?mid=1UiNObyoAOutUUMWTAy-FCRY4xHaaovg&ehbc=2E312F&noprof=1"
         width="90%"
-        height="700px"
+        height="600px"
       ></iframe>
     </div>
   );
