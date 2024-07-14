@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.h1 {
-  font-size: 48px;
-}
-
 .header-image-container {
   background-position: 40%;
   background-image: url("/assets/hero-cottage-2.jpg");
@@ -21,12 +17,4 @@
   background-color: rgba(0, 0, 0, 0.5); 
   border-bottom-right-radius: 35px;
   border-bottom-left-radius: 35px;
-}
-
-.maps-iframe {
-  margin-top: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 35px;
-  margin-bottom: 50px;
 }

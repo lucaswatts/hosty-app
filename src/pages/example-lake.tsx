@@ -33,7 +33,7 @@ export default function Albion() {
     <div>
       <div className="header-image-container block bg-cover h-[99vh] w-full rounded-bl-[35px] rounded-br-[35px]"></div>
       <div className="header-content-container text-white absolute bottom-[60px] inline left-0 w-full">
-        <h1 className="h1 align-left ml-[5%] mb-[15px]">
+        <h1 className="text-[48px] align-left ml-[5%] mb-[15px]">
           Explore Your
           <br />
           <strong>Cottage</strong> Stay
