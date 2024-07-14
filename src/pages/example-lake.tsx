@@ -1,8 +1,34 @@
 import "../app/globals.css";
 import BodyImage from "@/components/BodyImage";
-import MapCopy from "@/components/MapCopy";
+import FAQ from "@/components/FAQ";
 
 export default function Albion() {
+  const faqData = [
+    {
+      question: "What do we do with the garbage?",
+      answer:
+        "Garbage goes into the small metal bin, behind the large shed. You do not need to take it with you, but please ensure you use clear bags, which are provided under the sink.",
+    },
+    {
+      question: "Can we use the kayaks?",
+      answer:
+        "Yes. You can use the water equipment. Life jackets are located inside the garage.",
+    },
+    {
+      question: "What is the checkout time?",
+      answer: "Checkout time is 11am on the final day of your stay.",
+    },
+    {
+      question: "Can we have fires?",
+      answer:
+        "Fires are managed by the local fire authorities. Fire rules are posted on the road into the cottage, but are typically night burning only (7pm to 7am) April 1 - October 31, and Day burning November 1 - March 31. In rare circumstances, a total fire ban is imposed and will be posted.",
+    },
+    {
+      question: "Can we use the ingredients and food in the pantry?",
+      answer: "Yes - feel free to use all food products.",
+    },
+  ];
+
   return (
     <div>
       <div className="header-image-container block bg-cover h-[99vh] w-full rounded-bl-[35px] rounded-br-[35px]"></div>
@@ -12,26 +38,27 @@ export default function Albion() {
           <br />
           <strong>Cottage</strong> Stay
         </h1>
-        <button className="rounded-lg text-lg bg-white text-black py-2 w-[90%] mx-auto flex justify-center">
-          See Our Recommendations
-        </button>
+        <a
+          href="https://www.google.com/maps/d/viewer?hl=en&mid=1UiNObyoAOutUUMWTAy-FCRY4xHaaovg&ll=45.067160024209834%2C-77.91564249962482&z=12"
+          target="_blank"
+        >
+          <button className="rounded-lg border-2 border-white text-lg bg-white text-black py-2 w-[90%] mx-auto flex justify-center cursor-pointer hover:bg-transparent hover:text-white duration-300">
+            See Our Recommendations
+          </button>
+        </a>
       </div>
       <BodyImage
         imgSrc="/assets/hero-cottage.jpg"
         imgStyle="rounded-[35px] mt-[30px] w-[90%] mx-auto"
       />
-      <MapCopy
-        containerStyle="w-[90%] mx-auto mt-[10px]"
-        titleStyle="uppercase font-bold"
-        blurbStyle="text-xs text-gray-500"
-        blurb="Below is a curated list of local sights, activities, points of interests, and businesses which we enjoy and recommend."
-      />
-      <iframe
+      <FAQ faqData={faqData} />
+
+      {/* <iframe
         className="maps-iframe"
         src="https://www.google.com/maps/d/u/0/embed?mid=1UiNObyoAOutUUMWTAy-FCRY4xHaaovg&ehbc=2E312F&noprof=1"
         width="90%"
         height="600px"
-      ></iframe>
+      ></iframe> */}
     </div>
   );
 }
