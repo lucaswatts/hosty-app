@@ -31,7 +31,7 @@ export default function Albion() {
 
   return (
     <div>
-      <div className="header-image-container block bg-cover h-[99vh] w-full rounded-bl-[35px] rounded-br-[35px]"></div>
+      <div className="header-image-container block bg-cover h-[99svh] w-full rounded-bl-[35px] rounded-br-[35px]"></div>
       <div className="header-content-container text-white absolute bottom-[60px] inline left-0 w-full">
         <h1 className="text-[48px] align-left ml-[5%] mb-[15px]">
           Explore Your
@@ -52,13 +52,6 @@ export default function Albion() {
         imgStyle="rounded-[35px] mt-[30px] w-[90%] mx-auto"
       />
       <FAQ faqData={faqData} />
-
-      {/* <iframe
-        className="maps-iframe"
-        src="https://www.google.com/maps/d/u/0/embed?mid=1UiNObyoAOutUUMWTAy-FCRY4xHaaovg&ehbc=2E312F&noprof=1"
-        width="90%"
-        height="600px"
-      ></iframe> */}
     </div>
   );
 }

@@ -18,7 +18,7 @@ const FAQ: React.FC<FAQProps> = ({ faqData }) => {
 
   return (
     <div className="w-[90%] my-[20px] mx-auto">
-      <h2 className="px-4 text-[42px] font-bold">FAQ</h2>
+      <h2 className="px-4 mb-[2px] text-[42px] font-bold">FAQ</h2>
       {faqData.map((item, index) => (
         <div key={index} className="mb-4 mx-auto">
           <div
