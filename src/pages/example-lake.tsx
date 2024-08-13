@@ -42,7 +42,7 @@ export default function ExampleLake() {
           href="https://www.google.com/maps/d/viewer?hl=en&mid=1UiNObyoAOutUUMWTAy-FCRY4xHaaovg&ll=45.067160024209834%2C-77.91564249962482&z=12"
           target="_blank"
         >
-          <button className="rounded-lg border-2 border-white text-lg bg-white text-black py-2 w-[90%] mx-auto flex justify-center cursor-pointer hover:bg-transparent hover:text-white duration-300">
+          <button className="rounded-lg border-2 border-white text-lg bg-white text-black py-2 w-[90%] md:w-[400px] mx-auto md:ml-[5%] md:mr-auto flex justify-center cursor-pointer hover:bg-transparent hover:text-white duration-300">
             See Our Recommendations On Google
           </button>
         </a>
