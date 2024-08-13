@@ -2,7 +2,7 @@ import "../app/globals.css";
 import BodyImage from "@/components/BodyImage";
 import FAQ from "@/components/FAQ";
 
-export default function Albion() {
+export default function ExampleLake() {
   const faqData = [
     {
       question: "What do we do with the garbage?",
