@@ -43,7 +43,7 @@ export default function Albion() {
           target="_blank"
         >
           <button className="rounded-lg border-2 border-white text-lg bg-white text-black py-2 w-[90%] mx-auto flex justify-center cursor-pointer hover:bg-transparent hover:text-white duration-300">
-            See Our Recommendations
+            See Our Recommendations On Google
           </button>
         </a>
       </div>
